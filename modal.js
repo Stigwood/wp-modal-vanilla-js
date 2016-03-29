@@ -180,7 +180,7 @@ function openModalWindow () {
           else
             return;
         }
-      }); // In order to remove this, we have to name the function.  We'll see if that's possible.  Right now, it just throws off JS errors.  
+      });
       
       } // End onclick add
     
@@ -189,23 +189,3 @@ function openModalWindow () {
   }); // Event Listener end
 
 }()); // IIFE end  
-
-/*
-
-Basically, you can't add hover onto the element, but you can create a style sheet, which could be an interesting shortcut.  
-var css = 'table td:hover{ background-color: #00ff00 }';
-style = document.createElement('style');
-
-if (style.styleSheet) {
-    style.styleSheet.cssText = css;
-} else {
-    style.appendChild(document.createTextNode(css));
-}
-
-document.getElementsByTagName('head')[0].appendChild(style);
-
-
-<div id="spinner"></div>
-</body>
-
-*/
