@@ -1,5 +1,5 @@
 function openModalWindow () {
-// Doesn't actually open modal window, is simply in place for HTML semantics when replacing href with onclick function
+// Doesn't actually open modal window, is simply in place for HTML semantics when replacing href with onclick function ethsaetnhs
   console.log ('Open!');      
 }
 
