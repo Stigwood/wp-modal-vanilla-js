@@ -1,0 +1,48 @@
+/*
+   Some generic wordpress style 
+*/
+
+/* Base styles */
+
+img
+{width: 100%}
+
+article {
+  width: 900px;
+  font-family: georgia, serif;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+p {
+  width: 614px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+/* wordpress defaults*/
+.alignleft {
+  float: left;
+}
+
+.wp-caption.alignright {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.wp-caption.alignleft {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.alignright {
+  float: right;
+}
+/* for demonstration */
+
+.wp-caption {
+  width: 450px;
+}
+
+.wp-caption > p {
+  width: 450px;
+  font-style: italic;
+}
