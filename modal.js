@@ -24,8 +24,6 @@ function openModalWindow () {
     function removeIt () {
     
       var removalDiv = document.getElementById("inner-overlay-t1e2e"); 
-// before removing the div, we need to eliminate the background gif loader animation, so it doesn't look funny. 
-
       removalDiv.parentNode.removeChild(removalDiv);  
       
 // By targetting the style of the <body> directly (instead of by css), this avoid overwriting any overflow styles that might be present or absent in the original site's style-sheet.  
